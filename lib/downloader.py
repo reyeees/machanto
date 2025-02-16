@@ -5,8 +5,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Event
 
 from requests import Session
-from lib.chunks import ChunkDownloader
-from lib.utils import Utils
+from .core.chunks import ChunkDownloader
+from .core.utils import Utils
 
 STOP_FLAG = Event()
 def signal_listener(sig, frame) -> None:
