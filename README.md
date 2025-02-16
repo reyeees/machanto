@@ -6,5 +6,5 @@ Features:
 - [x] Multi-Threading
 - [x] Can be used as library
 - [x] Easy to use
-- [] Can't be interrupted while downloading
-- [] Doesn't support sites without range-bytes support
+- [ ] Can't be interrupted while downloading
+- [ ] Doesn't support sites without range-bytes support
